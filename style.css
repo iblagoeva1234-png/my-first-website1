@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eee;
+}
+
+header {
+    background-color: #f3e9d2;
+    padding: 10px;
+    text-align: right;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+    padding: 5px 10px;
+    background-color: #f7f0e0;
+    border-radius: 4px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;   
+    gap: 20px;
+    padding: 40px;
+}
+
+.card {
+    width: 260px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.bonboni {
+    background-color: #f6d6e6;
+}
+
+.pitka {
+    background-color: #e6f4c7;
+}
+
+.keks {
+    background-color: #f3cfe8;
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: blue;
+    font-size: 14px;
+}
